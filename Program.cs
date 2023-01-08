@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
+using BookStoreApp_Blazor.Server.UI.Controllers;
+using BookStoreAPI.Configurations;
+using Serilog;
 
 namespace BookStoreApp_Blazor.Server.UI
 {
@@ -24,8 +27,15 @@ namespace BookStoreApp_Blazor.Server.UI
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-            builder.Services.AddDbContext<AuthorContext>(options =>
+            builder.Services.AddDbContext<BookStoreDbContext>(options =>
             options.UseSqlServer(connectionString));
+            builder.Services.AddIdentityCore<AppUser>()
+                .AddRoles<IdentityRole>()
+                .AddEntityFrameworkStores<BookStoreDbContext>();
+
+            builder.Services.AddAutoMapper(typeof(MapperConfig));
+            builder.Host.UseSerilog((ctx, lc) =>
+    lc.WriteTo.Console().ReadFrom.Configuration(ctx.Configuration));
 
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();

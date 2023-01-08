@@ -4,20 +4,22 @@ using BookStoreApp_Blazor.Server.UI.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
 namespace BookStoreApp_Blazor.Server.UI.Migrations
 {
-    [DbContext(typeof(AuthorContext))]
-    partial class AuthorContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(BookStoreDbContext))]
+    [Migration("20230108162404_initialmigration")]
+    partial class initialmigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.8")
+                .HasAnnotation("ProductVersion", "6.0.12")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
@@ -32,44 +34,23 @@ namespace BookStoreApp_Blazor.Server.UI.Migrations
 
                     b.Property<string>("Bio")
                         .HasMaxLength(250)
-                        .HasColumnType("nvarchar(250)");
+                        .HasColumnType("nchar(250)")
+                        .IsFixedLength();
 
                     b.Property<string>("FirstName")
-                        .IsRequired()
                         .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nchar(50)")
+                        .IsFixedLength();
 
                     b.Property<string>("LastName")
-                        .IsRequired()
                         .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nchar(50)")
+                        .IsFixedLength();
 
-                    b.HasKey("Id");
+                    b.HasKey("Id")
+                        .HasName("PK__Authors__3214EC07CFFEDD87");
 
                     b.ToTable("Authors");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Bio = " born Aegon Targaryen, is the son of Lyanna Stark and Rhaegar Targaryen, the late Prince of Dragonstone",
-                            FirstName = "John",
-                            LastName = "Snow"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Bio = " born Aegon Targaryen, is the son of Lyanna Stark and Rhaegar Targaryen, the late Prince of Dragonstone",
-                            FirstName = "John2",
-                            LastName = "Snow2"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Bio = " born Aegon Targaryen, is the son of Lyanna Stark and Rhaegar Targaryen, the late Prince of Dragonstone",
-                            FirstName = "John3",
-                            LastName = "Snow3"
-                        });
                 });
 
             modelBuilder.Entity("BookStoreApp_Blazor.Server.UI.Data.Book", b =>
@@ -84,33 +65,36 @@ namespace BookStoreApp_Blazor.Server.UI.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Image")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Isbn")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
+                        .HasColumnName("ISBN");
 
                     b.Property<decimal?>("Price")
-                        .IsRequired()
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Summary")
-                        .IsRequired()
                         .HasMaxLength(250)
                         .HasColumnType("nvarchar(250)");
 
                     b.Property<string>("Title")
-                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
                     b.Property<int?>("Year")
-                        .IsRequired()
                         .HasColumnType("int");
 
-                    b.HasKey("Id");
+                    b.HasKey("Id")
+                        .HasName("PK__Books__3214EC078B4E261E");
 
                     b.HasIndex("AuthorId");
+
+                    b.HasIndex(new[] { "Isbn" }, "UQ__Books__447D36EAFB34C728")
+                        .IsUnique();
 
                     b.ToTable("Books");
                 });
@@ -119,7 +103,8 @@ namespace BookStoreApp_Blazor.Server.UI.Migrations
                 {
                     b.HasOne("BookStoreApp_Blazor.Server.UI.Data.Author", "Author")
                         .WithMany("Books")
-                        .HasForeignKey("AuthorId");
+                        .HasForeignKey("AuthorId")
+                        .HasConstraintName("FK_Books_ToTable");
 
                     b.Navigation("Author");
                 });
