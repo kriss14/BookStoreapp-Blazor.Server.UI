@@ -4,6 +4,7 @@ using BookStoreApp_Blazor.Server.UI.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookStoreApp_Blazor.Server.UI.Migrations
 {
     [DbContext(typeof(BookStoreDbContext))]
-    partial class BookStoreDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230108221710_newMigration")]
+    partial class newMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -99,37 +101,33 @@ namespace BookStoreApp_Blazor.Server.UI.Migrations
                         {
                             Id = "41c6470f-ccb1-42db-954b-c330a72c8b34",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "9edf17b8-6278-48c9-8d56-8d3ab1dac6bf",
+                            ConcurrencyStamp = "25ec8341-5ea2-4342-b1d4-a16f74824d1e",
                             Email = "admin@bookstore.com",
                             EmailConfirmed = false,
                             FirstName = "System",
                             LastName = "Admin",
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@BOOKSTORE.COM",
-                            NormalizedUserName = "ADMIN@BOOKSTORE.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEPupcu30OnsWzK7RlJ4UeSnlF9RIiysC5Fol8LHnvq83KZISjsKzdTOsPHJdSOumPA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEPbOSZRrsZwCH/8ZquADTbq33iPOxo+oNyudrliGUK0VZMKyLo3smfCvYSeJTUPiIA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "1c7e4377-10d7-45d0-a46e-065c3f03c5a2",
-                            TwoFactorEnabled = false,
-                            UserName = "admin@bookstore.com"
+                            SecurityStamp = "525e59dc-6d1a-4ebb-8952-ca89ed887e7f",
+                            TwoFactorEnabled = false
                         },
                         new
                         {
                             Id = "8a51b850-3ad5-4998-92dc-581ec43eb234",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b97397ca-7059-4cea-9730-09bfc347cf6a",
+                            ConcurrencyStamp = "3acaf025-1181-45be-97b5-dc75687c415b",
                             Email = "user@bookstore.com",
                             EmailConfirmed = false,
                             FirstName = "System",
                             LastName = "User",
                             LockoutEnabled = false,
                             NormalizedEmail = "USER@BOOKSTORE.COM",
-                            NormalizedUserName = "USER@BOOKSTORE.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEN67QaRWllCjQxL3sXYDMAfy33PT9rlFd/9ZBuLMpMv0jx8Xup5czTn+eFDA0k0+XQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEI/zekgX9O8DvVZbTtHwn7kCpCQprBBWOHssHbHEnWO+pRe4Rr0UVNoakn42wZYOuw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "7abf27cf-1f0f-4b17-9ef8-7650347a186f",
-                            TwoFactorEnabled = false,
-                            UserName = "user@bookstore.com"
+                            SecurityStamp = "f70d0803-4332-41a7-8b0c-f31599192664",
+                            TwoFactorEnabled = false
                         });
                 });
 
@@ -238,14 +236,14 @@ namespace BookStoreApp_Blazor.Server.UI.Migrations
                         new
                         {
                             Id = "af172c47-fde8-44c4-93b8-fe2e623a592f",
-                            ConcurrencyStamp = "e98f1701-c463-43ab-8c40-a5f3ef85c4cc",
+                            ConcurrencyStamp = "9bd5c2e5-9f18-4119-8816-faaf57eeb80c",
                             Name = "User",
                             NormalizedName = "USER"
                         },
                         new
                         {
                             Id = "8a51b850-3ad5-4998-92dc-581ec43eb234",
-                            ConcurrencyStamp = "db79799b-0d8d-45f6-b171-075fd98b5640",
+                            ConcurrencyStamp = "d209992d-d602-4d5c-9607-7996f6905ed9",
                             Name = "Administrator",
                             NormalizedName = "ADMINISTRATOR"
                         });

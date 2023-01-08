@@ -84,6 +84,8 @@ public partial class BookStoreDbContext : IdentityDbContext<AppUser>
                 Id = "41c6470f-ccb1-42db-954b-c330a72c8b34",
                 Email = "admin@bookstore.com",
                 NormalizedEmail = "ADMIN@BOOKSTORE.COM",
+                UserName = "admin@bookstore.com",
+                NormalizedUserName = "ADMIN@BOOKSTORE.COM",
                 FirstName = "System",
                 LastName = "Admin",
                 PasswordHash = hasher.HashPassword(null, "Admin$1")
@@ -93,6 +95,8 @@ public partial class BookStoreDbContext : IdentityDbContext<AppUser>
                    Id = "8a51b850-3ad5-4998-92dc-581ec43eb234",
                    Email = "user@bookstore.com",
                    NormalizedEmail = "USER@BOOKSTORE.COM",
+                   UserName = "user@bookstore.com",
+                   NormalizedUserName = "USER@BOOKSTORE.COM",
                    FirstName = "System",
                    LastName = "User",
                    PasswordHash = hasher.HashPassword(null, "User$1")

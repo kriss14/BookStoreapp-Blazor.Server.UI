@@ -290,3 +290,4 @@ C:\c#\BookStoreapp-Blazor.Server.UI\bin\Debug\net6.0\Serilog.Sinks.Console.dll
 C:\c#\BookStoreapp-Blazor.Server.UI\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 C:\c#\BookStoreapp-Blazor.Server.UI\bin\Debug\net6.0\Serilog.Sinks.File.dll
 C:\c#\BookStoreapp-Blazor.Server.UI\bin\Debug\net6.0\Serilog.Expressions.dll
+C:\c#\BookStoreapp-Blazor.Server.UI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
