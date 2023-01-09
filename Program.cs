@@ -12,6 +12,11 @@ using Serilog;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using BookStoreApp_Blazor.Server.UI.Services.Base;
+using Blazored.LocalStorage;
+using Microsoft.AspNetCore.Authentication;
+using BookStoreApp_Blazor.Server.UI.Providers;
+using BookStoreApp_Blazor.Server.UI.Services.Authentication;
 
 namespace BookStoreApp_Blazor.Server.UI
 {
@@ -65,8 +70,14 @@ namespace BookStoreApp_Blazor.Server.UI
 
             builder.Services.AddRazorPages();
             builder.Services.AddServerSideBlazor();
+            builder.Services.AddBlazoredLocalStorage();
             builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
             builder.Services.AddSingleton<WeatherForecastService>();
+            builder.Services.AddHttpClient<IClient, Client>(cl => cl.BaseAddress = new Uri("https://localhost:7082"));
+            builder.Services.AddScoped<Services.Authentication.IAuthenticationService, Services.Authentication.AuthenticationService>();
+            builder.Services.AddScoped<ApiAuthenticationStateProvider>();
+            builder.Services.AddScoped<AuthenticationStateProvider>(p =>
+                p.GetRequiredService<ApiAuthenticationStateProvider>());
 
             var app = builder.Build();
 

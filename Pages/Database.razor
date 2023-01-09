@@ -2,24 +2,25 @@
 
 <PageTitle>Database</PageTitle>
 
-@using Models.Author
+@*@using Models.Author
 @using BookStoreApp_Blazor.Server.UI.Controllers
 @inject Data.BookStoreDbContext _context
 
-@code{
+@code {
     private AuthorCreateDto author = new AuthorCreateDto();
-    private Controllers.AuthorsController authorController = new Controllers.AuthorsController(null,null, null);
+    private Controllers.AuthorsController authorController = new Controllers.AuthorsController(null, null, null);
 
     private async void HandleValidSubmit()
     {
         try
         {
-           var a =  authorController.GetAuthors();
+            var a = authorController.GetAuthors();
         }
         catch (Exception)
         {
-            
+
             throw;
         }
     }
 }
+*@
