@@ -1157,3 +1157,238 @@ System.ArgumentNullException: IDX10000: The parameter 'token' cannot be a 'null'
 2023-01-09 13:57:06.160 +01:00 [INF] Received HTTP response headers after 2764.4912ms - 200
 2023-01-09 13:57:06.164 +01:00 [INF] End processing HTTP request after 1557.8514ms - 200
 2023-01-09 13:57:06.164 +01:00 [INF] End processing HTTP request after 2791.0733ms - 200
+2023-01-09 14:22:54.308 +01:00 [INF] Now listening on: https://localhost:7082
+2023-01-09 14:22:54.355 +01:00 [INF] Now listening on: http://localhost:5082
+2023-01-09 14:22:54.358 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-09 14:22:54.359 +01:00 [INF] Hosting environment: Development
+2023-01-09 14:22:54.360 +01:00 [INF] Content root path: C:\c#\BookStoreApp-Blazor.Server.UI\
+2023-01-09 14:23:13.019 +01:00 [INF] Start processing HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-09 14:23:13.030 +01:00 [INF] Sending HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-09 14:23:13.508 +01:00 [INF] Login Attempt for admin@bookstore.com
+2023-01-09 14:23:16.051 +01:00 [INF] Received HTTP response headers after 3016.4643ms - 200
+2023-01-09 14:23:16.054 +01:00 [INF] End processing HTTP request after 3042.4361ms - 200
+2023-01-09 14:23:19.127 +01:00 [INF] Start processing HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-09 14:23:19.129 +01:00 [INF] Sending HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-09 14:23:19.151 +01:00 [INF] Received HTTP response headers after 20.7295ms - 401
+2023-01-09 14:23:19.152 +01:00 [INF] End processing HTTP request after 25.2078ms - 401
+2023-01-09 14:23:19.215 +01:00 [WRN] Unhandled exception rendering component: The HTTP status code of the response was not expected (401).
+
+Status: 401
+Response: 
+
+HTTP Response: 
+
+
+
+BookStoreApp_Blazor.Server.UI.Services.Base.ApiException: The HTTP status code of the response was not expected (401).
+
+Status: 401
+Response: 
+
+   at BookStoreApp_Blazor.Server.UI.Services.Base.Client.AuthorsAllAsync(CancellationToken cancellationToken) in C:\c#\BookStoreApp-Blazor.Server.UI\Services\Base\ServiceClient.cs:line 367
+   at BookStoreApp_Blazor.Server.UI.Pages.Authors.Index.OnInitializedAsync() in C:\c#\BookStoreApp-Blazor.Server.UI\Pages\Authors\Index.razor:line 46
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+2023-01-09 14:23:19.296 +01:00 [ERR] Unhandled exception in circuit 'DXQmW6XvOLdBZ3uaZzGHOuywO9w4Kvec8ijs2ZVKztA'.
+HTTP Response: 
+
+
+
+BookStoreApp_Blazor.Server.UI.Services.Base.ApiException: The HTTP status code of the response was not expected (401).
+
+Status: 401
+Response: 
+
+   at BookStoreApp_Blazor.Server.UI.Services.Base.Client.AuthorsAllAsync(CancellationToken cancellationToken) in C:\c#\BookStoreApp-Blazor.Server.UI\Services\Base\ServiceClient.cs:line 367
+   at BookStoreApp_Blazor.Server.UI.Pages.Authors.Index.OnInitializedAsync() in C:\c#\BookStoreApp-Blazor.Server.UI\Pages\Authors\Index.razor:line 46
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+2023-01-09 15:15:43.853 +01:00 [INF] Now listening on: https://localhost:7082
+2023-01-09 15:15:43.915 +01:00 [INF] Now listening on: http://localhost:5082
+2023-01-09 15:15:43.920 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-09 15:15:43.921 +01:00 [INF] Hosting environment: Development
+2023-01-09 15:15:43.922 +01:00 [INF] Content root path: C:\c#\BookStoreApp-Blazor.Server.UI\
+2023-01-09 15:16:01.254 +01:00 [INF] Start processing HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-09 15:16:01.263 +01:00 [INF] Sending HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-09 15:16:01.684 +01:00 [INF] Login Attempt for admin@bookstore.com
+2023-01-09 15:16:04.016 +01:00 [INF] Received HTTP response headers after 2747.9884ms - 200
+2023-01-09 15:16:04.021 +01:00 [INF] End processing HTTP request after 2774.6327ms - 200
+2023-01-09 15:16:13.042 +01:00 [INF] Start processing HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-09 15:16:13.045 +01:00 [INF] Sending HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-09 15:16:13.066 +01:00 [INF] Received HTTP response headers after 19.3239ms - 401
+2023-01-09 15:16:13.068 +01:00 [INF] End processing HTTP request after 25.7728ms - 401
+2023-01-09 15:18:15.430 +01:00 [INF] Now listening on: https://localhost:7082
+2023-01-09 15:18:15.476 +01:00 [INF] Now listening on: http://localhost:5082
+2023-01-09 15:18:15.479 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-09 15:18:15.480 +01:00 [INF] Hosting environment: Development
+2023-01-09 15:18:15.482 +01:00 [INF] Content root path: C:\c#\BookStoreApp-Blazor.Server.UI\
+2023-01-09 15:18:31.508 +01:00 [INF] Start processing HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-09 15:18:31.517 +01:00 [INF] Sending HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-09 15:18:31.991 +01:00 [INF] Login Attempt for admin@bookstore.com
+2023-01-09 15:18:34.558 +01:00 [INF] Received HTTP response headers after 3035.9134ms - 200
+2023-01-09 15:18:34.562 +01:00 [INF] End processing HTTP request after 3061.7862ms - 200
+2023-01-09 15:18:36.572 +01:00 [INF] Start processing HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-09 15:18:36.573 +01:00 [INF] Sending HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-09 15:18:36.617 +01:00 [INF] Request to GetAuthors
+2023-01-09 15:18:36.710 +01:00 [INF] Received HTTP response headers after 135.7008ms - 200
+2023-01-09 15:18:36.712 +01:00 [INF] End processing HTTP request after 139.4915ms - 200
+2023-01-09 15:21:35.733 +01:00 [INF] Login Attempt for admin@bookstore.com
+2023-01-09 15:21:54.590 +01:00 [ERR] Failed executing DbCommand (24ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 50), @p2='?' (Size = 50), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p4='?' (Size = 250), @p5='?' (Size = 50), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Books] ([AuthorId], [Image], [ISBN], [Price], [Summary], [Title], [Year])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [Id]
+FROM [Books]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2023-01-09 15:21:54.694 +01:00 [ERR] An exception occurred in the database while saving changes for context type 'BookStoreApp_Blazor.Server.UI.Data.BookStoreDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Books' with unique index 'UQ__Books__447D36EAFB34C728'. The duplicate key value is (Some new  isbn from me new).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:08aaafcd-6c29-40f6-8477-76b5e87dd7f7
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Books' with unique index 'UQ__Books__447D36EAFB34C728'. The duplicate key value is (Some new  isbn from me new).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:08aaafcd-6c29-40f6-8477-76b5e87dd7f7
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-01-09 15:21:54.754 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Books' with unique index 'UQ__Books__447D36EAFB34C728'. The duplicate key value is (Some new  isbn from me new).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:08aaafcd-6c29-40f6-8477-76b5e87dd7f7
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at BookStoreAPI.Controllers.BooksController.PostBook(BookCreateDto bookDto) in C:\c#\BookStoreApp-Blazor.Server.UI\Controllers\BooksController.cs:line 105
+   at lambda_method324(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-01-09 15:23:08.937 +01:00 [INF] Start processing HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-09 15:23:08.938 +01:00 [INF] Sending HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-09 15:23:08.945 +01:00 [INF] Request to GetAuthors
+2023-01-09 15:23:08.948 +01:00 [INF] Received HTTP response headers after 8.1813ms - 200
+2023-01-09 15:23:08.948 +01:00 [INF] End processing HTTP request after 12.5314ms - 200
+2023-01-09 15:24:09.835 +01:00 [INF] Start processing HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-09 15:24:09.838 +01:00 [INF] Sending HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-09 15:24:09.859 +01:00 [INF] Login Attempt for admin@bookstore.com
+2023-01-09 15:24:09.873 +01:00 [INF] Received HTTP response headers after 33.5397ms - 200
+2023-01-09 15:24:09.874 +01:00 [INF] End processing HTTP request after 38.7003ms - 200
+2023-01-09 15:24:14.822 +01:00 [INF] Start processing HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-09 15:24:14.830 +01:00 [INF] Sending HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-09 15:24:14.836 +01:00 [INF] Request to GetAuthors
+2023-01-09 15:24:14.842 +01:00 [INF] Received HTTP response headers after 9.205ms - 200
+2023-01-09 15:24:14.843 +01:00 [INF] End processing HTTP request after 21.2237ms - 200
+2023-01-09 15:24:34.398 +01:00 [INF] Start processing HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-09 15:24:34.400 +01:00 [INF] Sending HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-09 15:24:34.402 +01:00 [INF] Request to GetAuthors
+2023-01-09 15:24:34.405 +01:00 [INF] Received HTTP response headers after 4.1276ms - 200
+2023-01-09 15:24:34.406 +01:00 [INF] End processing HTTP request after 7.4749ms - 200
+2023-01-09 15:25:01.810 +01:00 [INF] Start processing HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-09 15:25:01.811 +01:00 [INF] Sending HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-09 15:25:01.814 +01:00 [INF] Request to GetAuthors
+2023-01-09 15:25:01.818 +01:00 [INF] Received HTTP response headers after 5.9573ms - 200
+2023-01-09 15:25:01.819 +01:00 [INF] End processing HTTP request after 9.3408ms - 200
+2023-01-09 15:37:40.503 +01:00 [INF] Now listening on: https://localhost:7082
+2023-01-09 15:37:40.540 +01:00 [INF] Now listening on: http://localhost:5082
+2023-01-09 15:37:40.545 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-09 15:37:40.546 +01:00 [INF] Hosting environment: Development
+2023-01-09 15:37:40.546 +01:00 [INF] Content root path: C:\c#\BookStoreApp-Blazor.Server.UI\
+2023-01-09 15:42:25.279 +01:00 [INF] Now listening on: https://localhost:7082
+2023-01-09 15:42:25.319 +01:00 [INF] Now listening on: http://localhost:5082
+2023-01-09 15:42:25.322 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-09 15:42:25.323 +01:00 [INF] Hosting environment: Development
+2023-01-09 15:42:25.324 +01:00 [INF] Content root path: C:\c#\BookStoreApp-Blazor.Server.UI\
+2023-01-09 15:42:56.474 +01:00 [INF] Login Attempt for user@bookstore.com
+2023-01-09 15:45:45.538 +01:00 [INF] Login Attempt for admin@boostore.com
+2023-01-09 15:45:58.816 +01:00 [INF] Login Attempt for admin@bookstore.com
+2023-01-09 15:47:55.756 +01:00 [INF] Start processing HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-09 15:47:55.767 +01:00 [INF] Sending HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-09 15:47:55.858 +01:00 [INF] Login Attempt for admin@bookstore.com
+2023-01-09 15:47:55.881 +01:00 [INF] Received HTTP response headers after 109.2506ms - 200
+2023-01-09 15:47:55.885 +01:00 [INF] End processing HTTP request after 137.0136ms - 200
+2023-01-09 15:48:08.053 +01:00 [INF] Start processing HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-09 15:48:08.056 +01:00 [INF] Sending HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-09 15:48:08.063 +01:00 [INF] Request to GetAuthors
+2023-01-09 15:48:08.093 +01:00 [INF] Received HTTP response headers after 36.9883ms - 200
+2023-01-09 15:48:08.094 +01:00 [INF] End processing HTTP request after 41.4527ms - 200
+2023-01-09 15:48:34.710 +01:00 [INF] Start processing HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-09 15:48:34.713 +01:00 [INF] Sending HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-09 15:48:34.720 +01:00 [INF] Request to GetAuthors
+2023-01-09 15:48:34.731 +01:00 [INF] Received HTTP response headers after 14.9936ms - 200
+2023-01-09 15:48:34.732 +01:00 [INF] End processing HTTP request after 21.9213ms - 200

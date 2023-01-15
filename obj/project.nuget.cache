@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IGcUK4VF1P3CSOcWc9mRSD/l6iafrYY7iE8xdcPdR01gUdsCZRYaLgPwlXGK1Z8gs75H8g7i2XeIimTvI5vmKA==",
+  "dgSpecHash": "/Sa4Jpa6dNGW2IMZCMrNp8yTNnMDpa9BPvGyC4jw+sh9/5TQQ7QuzTtL5PaBv/aUk7SBMyOA2dcda1Ptxr2nHw==",
   "success": true,
-  "projectFilePath": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\BookStoreApp-Blazor.Server.UI.csproj",
+  "projectFilePath": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\BookStoreApp-Blazor.Server.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\criceb01\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\criceb01\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

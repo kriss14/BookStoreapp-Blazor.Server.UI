@@ -13,10 +13,16 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace BookStoreApp_Blazor.Server.UI.Controllers
 {
+    public interface IAuthorsController
+    {
+        Task<ActionResult<IEnumerable<AuthorReadOnlyDto>>> GetAuthors();
+        Task<ActionResult<AuthorReadOnlyDto>> GetAuthor(int id);
+
+    }
     [Route("api/[controller]")]
     [ApiController]
     [Authorize]
-    public class AuthorsController : ControllerBase
+    public class AuthorsController : ControllerBase, IAuthorsController
     {
         private readonly BookStoreDbContext _context;
         private readonly IMapper mapper;

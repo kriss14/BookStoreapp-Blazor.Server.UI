@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XpOaU6T5m1jwz3pg0/PHvr7wc/c2GygVrUhNlTfvpj4=",
+  "Hash": "4Ly8dQqh4i8n1loxQYU4LvJmsaMKRp/sKAjL/+Foj/M=",
   "Source": "BookStoreApp-Blazor.Server.UI",
   "BasePath": "_content/BookStoreApp-Blazor.Server.UI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BookStoreApp-Blazor.Server.UI\\wwwroot",
       "Source": "BookStoreApp-Blazor.Server.UI",
-      "ContentRoot": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\",
+      "ContentRoot": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\",
       "BasePath": "_content/BookStoreApp-Blazor.Server.UI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BookStoreApp-Blazor.Server.UI.styles.css",
+      "Identity": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BookStoreApp-Blazor.Server.UI.styles.css",
       "SourceId": "BookStoreApp-Blazor.Server.UI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BookStoreApp-Blazor.Server.UI",
       "RelativePath": "BookStoreApp-Blazor.Server.UI.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BookStoreApp-Blazor.Server.UI.styles.css"
+      "OriginalItemSpec": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BookStoreApp-Blazor.Server.UI.styles.css"
     },
     {
-      "Identity": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BookStoreApp-Blazor.Server.UI.bundle.scp.css",
+      "Identity": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BookStoreApp-Blazor.Server.UI.bundle.scp.css",
       "SourceId": "BookStoreApp-Blazor.Server.UI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BookStoreApp-Blazor.Server.UI",
       "RelativePath": "BookStoreApp-Blazor.Server.UI.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BookStoreApp-Blazor.Server.UI.bundle.scp.css"
+      "OriginalItemSpec": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BookStoreApp-Blazor.Server.UI.bundle.scp.css"
     },
     {
-      "Identity": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BookStoreApp-Blazor.Server.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\",
+      "ContentRoot": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\",
       "BasePath": "_content/BookStoreApp-Blazor.Server.UI",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BookStoreApp-Blazor.Server.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\",
+      "ContentRoot": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\",
       "BasePath": "_content/BookStoreApp-Blazor.Server.UI",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BookStoreApp-Blazor.Server.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\",
+      "ContentRoot": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\",
       "BasePath": "_content/BookStoreApp-Blazor.Server.UI",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BookStoreApp-Blazor.Server.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\",
+      "ContentRoot": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\",
       "BasePath": "_content/BookStoreApp-Blazor.Server.UI",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BookStoreApp-Blazor.Server.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\",
+      "ContentRoot": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\",
       "BasePath": "_content/BookStoreApp-Blazor.Server.UI",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BookStoreApp-Blazor.Server.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\",
+      "ContentRoot": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\",
       "BasePath": "_content/BookStoreApp-Blazor.Server.UI",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BookStoreApp-Blazor.Server.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\",
+      "ContentRoot": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\",
       "BasePath": "_content/BookStoreApp-Blazor.Server.UI",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BookStoreApp-Blazor.Server.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\",
+      "ContentRoot": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\",
       "BasePath": "_content/BookStoreApp-Blazor.Server.UI",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BookStoreApp-Blazor.Server.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\",
+      "ContentRoot": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\",
       "BasePath": "_content/BookStoreApp-Blazor.Server.UI",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BookStoreApp-Blazor.Server.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\",
+      "ContentRoot": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\",
       "BasePath": "_content/BookStoreApp-Blazor.Server.UI",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BookStoreApp-Blazor.Server.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\",
+      "ContentRoot": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\",
       "BasePath": "_content/BookStoreApp-Blazor.Server.UI",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\css\\site.css",
+      "Identity": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\css\\site.css",
       "SourceId": "BookStoreApp-Blazor.Server.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\",
+      "ContentRoot": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\",
       "BasePath": "_content/BookStoreApp-Blazor.Server.UI",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\favicon.ico",
+      "Identity": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\favicon.ico",
       "SourceId": "BookStoreApp-Blazor.Server.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\c#\\BookStoreApp-Blazor.Server.UI\\wwwroot\\",
+      "ContentRoot": "C:\\c#\\BookStoreapp-Blazor.Server.UI\\wwwroot\\",
       "BasePath": "_content/BookStoreApp-Blazor.Server.UI",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
