@@ -79,6 +79,7 @@ namespace BookStoreApp_Blazor.Server.UI
             builder.Services.AddScoped<Services.Authentication.IAuthenticationService, Services.Authentication.AuthenticationService>();
             builder.Services.AddScoped<IAuthorService, AuthorService>();
             builder.Services.AddScoped<IAuthor, AuthorManager>();
+            builder.Services.AddScoped<AuthorState>();
             builder.Services.AddScoped<ApiAuthenticationStateProvider>();
             builder.Services.AddScoped<AuthenticationStateProvider>(p =>
                 p.GetRequiredService<ApiAuthenticationStateProvider>());

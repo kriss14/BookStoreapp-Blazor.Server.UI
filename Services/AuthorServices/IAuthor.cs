@@ -7,6 +7,8 @@ namespace BookStoreApp_Blazor.Server.UI.Services.AuthorServices
     {
         public Task<List<Author>> GetAuthorList();
         public Task<IActionResult> DeleteAuthor(int id);
+        public Task CreateAuthor(Author author);
+        public Task UpdateAuthor(int id);
 
     }
 }

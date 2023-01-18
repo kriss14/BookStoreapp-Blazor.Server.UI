@@ -1,0 +1,51 @@
+﻿@page "/database/create/"
+
+@inject IAuthor Author
+@inject NavigationManager navManager
+<h3>Create New Author</h3>
+
+<EditForm Model="AuthorModel" OnValidSubmit="HandleCreateAuthor">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <ValidationSummary></ValidationSummary>
+    <div class="form-group">
+        <label for="firstname">First Name</label>
+        <InputText @bind-Value="AuthorModel.FirstName" class="form-control" id="firstname"></InputText>
+        <ValidationMessage For="@(() =>AuthorModel.FirstName)"></ValidationMessage>
+    </div>
+    <div class="form-group">
+        <label for="firstname">Last Name</label>
+        <InputText @bind-Value="AuthorModel.LastName" class="form-control" id="lastname"></InputText>
+        <ValidationMessage For="@(() =>AuthorModel.LastName)"></ValidationMessage>
+    </div>
+    <div class="form-group">
+        <label for="firstname">Biography</label>
+        <InputText @bind-Value="AuthorModel.Bio" class="form-control" id="bio"></InputText>
+        <ValidationMessage For="@(() =>AuthorModel.Bio)"></ValidationMessage>
+    </div>
+
+        <button class="btn btn-primary" type="submit">
+        <span class="oi oi-pencil"></span>
+        Create Author
+    </button>
+    <button @onclick="BackToTable" class="btn btn-outline-secondary">
+        <span class="oi oi-media-skip-backward"></span>
+        Back to table
+    </button>
+</EditForm>
+@code {
+    private Author AuthorModel = new Author();
+    private async Task HandleCreateAuthor()
+    {
+
+        if (!(string.IsNullOrEmpty(AuthorModel.FirstName) && string.IsNullOrEmpty(AuthorModel.LastName)))
+        {
+            await Author.CreateAuthor(AuthorModel);
+        }
+        BackToTable();
+    }
+    private void BackToTable()
+    {
+        navManager.NavigateTo("/database/");
+    }
+
+} 

@@ -1,4 +1,5 @@
 ﻿using BookStoreApp_Blazor.Server.UI.Data;
+using BookStoreApp_Blazor.Server.UI.Services.Base;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -30,6 +31,21 @@ namespace BookStoreApp_Blazor.Server.UI.Services.AuthorServices
             bookStoreDbContext.Authors.Remove(author);
             await bookStoreDbContext.SaveChangesAsync();
             return null;
+        }
+
+        public async Task CreateAuthor(Author author)
+        {
+           bookStoreDbContext.Add(author);
+           await bookStoreDbContext.SaveChangesAsync();
+           
+        }
+
+        public async Task UpdateAuthor(int id)
+        {
+            var author = await bookStoreDbContext.Authors.FindAsync(id);
+ 
+            bookStoreDbContext.Entry(author).State = EntityState.Modified;
+            await bookStoreDbContext.SaveChangesAsync();
         }
     }
 }

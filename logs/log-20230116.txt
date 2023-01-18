@@ -1,0 +1,40 @@
+2023-01-16 17:09:44.056 +01:00 [INF] Now listening on: https://localhost:7082
+2023-01-16 17:09:44.098 +01:00 [INF] Now listening on: http://localhost:5082
+2023-01-16 17:09:44.101 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-16 17:09:44.101 +01:00 [INF] Hosting environment: Development
+2023-01-16 17:09:44.102 +01:00 [INF] Content root path: C:\c#\BookStoreapp-Blazor.Server.UI\
+2023-01-16 17:11:33.088 +01:00 [INF] Now listening on: https://localhost:7082
+2023-01-16 17:11:33.126 +01:00 [INF] Now listening on: http://localhost:5082
+2023-01-16 17:11:33.129 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-16 17:11:33.130 +01:00 [INF] Hosting environment: Development
+2023-01-16 17:11:33.131 +01:00 [INF] Content root path: C:\c#\BookStoreapp-Blazor.Server.UI\
+2023-01-16 17:13:09.840 +01:00 [INF] Start processing HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-16 17:13:09.849 +01:00 [INF] Sending HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-16 17:13:10.126 +01:00 [INF] Login Attempt for admin@bookstore.com
+2023-01-16 17:13:10.576 +01:00 [INF] Received HTTP response headers after 720.696ms - 200
+2023-01-16 17:13:10.580 +01:00 [INF] End processing HTTP request after 747.5796ms - 200
+2023-01-16 17:13:19.632 +01:00 [INF] Start processing HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-16 17:13:19.634 +01:00 [INF] Sending HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-16 17:13:19.679 +01:00 [INF] Request to GetAuthors
+2023-01-16 17:13:19.756 +01:00 [INF] Received HTTP response headers after 120.5514ms - 200
+2023-01-16 17:13:19.758 +01:00 [INF] End processing HTTP request after 125.9915ms - 200
+2023-01-16 17:13:24.394 +01:00 [INF] Start processing HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-16 17:13:24.398 +01:00 [INF] Sending HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-16 17:13:24.404 +01:00 [INF] Request to GetAuthors
+2023-01-16 17:13:24.409 +01:00 [INF] Received HTTP response headers after 9.9174ms - 200
+2023-01-16 17:13:24.410 +01:00 [INF] End processing HTTP request after 16.414ms - 200
+2023-01-16 17:13:26.260 +01:00 [INF] Start processing HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-16 17:13:26.265 +01:00 [INF] Sending HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-16 17:13:26.269 +01:00 [INF] Request to GetAuthors
+2023-01-16 17:13:26.275 +01:00 [INF] Received HTTP response headers after 9.6775ms - 200
+2023-01-16 17:13:26.277 +01:00 [INF] End processing HTTP request after 16.417ms - 200
+2023-01-16 17:13:36.129 +01:00 [INF] Start processing HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-16 17:13:36.131 +01:00 [INF] Sending HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-16 17:13:36.138 +01:00 [INF] Request to GetAuthors
+2023-01-16 17:13:36.148 +01:00 [INF] Received HTTP response headers after 15.029ms - 200
+2023-01-16 17:13:36.151 +01:00 [INF] End processing HTTP request after 22.052ms - 200
+2023-01-16 17:13:37.841 +01:00 [INF] Start processing HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-16 17:13:37.844 +01:00 [INF] Sending HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-16 17:13:37.848 +01:00 [INF] Request to GetAuthors
+2023-01-16 17:13:37.853 +01:00 [INF] Received HTTP response headers after 7.2817ms - 200
+2023-01-16 17:13:37.854 +01:00 [INF] End processing HTTP request after 12.875ms - 200

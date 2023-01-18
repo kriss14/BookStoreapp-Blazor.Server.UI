@@ -150,3 +150,48 @@ System.InvalidOperationException: Cannot provide a value for property 'Author' o
 2023-01-15 18:55:33.876 +01:00 [INF] Application started. Press Ctrl+C to shut down.
 2023-01-15 18:55:33.877 +01:00 [INF] Hosting environment: Development
 2023-01-15 18:55:33.877 +01:00 [INF] Content root path: C:\c#\BookStoreapp-Blazor.Server.UI\
+2023-01-15 19:04:08.867 +01:00 [INF] Now listening on: https://localhost:7082
+2023-01-15 19:04:08.927 +01:00 [INF] Now listening on: http://localhost:5082
+2023-01-15 19:04:08.934 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-15 19:04:08.938 +01:00 [INF] Hosting environment: Development
+2023-01-15 19:04:08.940 +01:00 [INF] Content root path: C:\c#\BookStoreapp-Blazor.Server.UI\
+2023-01-15 19:04:33.772 +01:00 [INF] Start processing HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-15 19:04:33.796 +01:00 [INF] Sending HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-15 19:04:34.903 +01:00 [INF] Login Attempt for admin@bookstrore.com
+2023-01-15 19:04:39.628 +01:00 [INF] Received HTTP response headers after 5813.7994ms - 401
+2023-01-15 19:04:39.641 +01:00 [INF] End processing HTTP request after 5883.8069ms - 401
+2023-01-15 19:04:46.877 +01:00 [INF] Start processing HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-15 19:04:46.885 +01:00 [INF] Sending HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-15 19:04:46.904 +01:00 [INF] Login Attempt for admin@bookstrore.com
+2023-01-15 19:04:47.054 +01:00 [INF] Received HTTP response headers after 162.902ms - 401
+2023-01-15 19:04:47.061 +01:00 [INF] End processing HTTP request after 183.5626ms - 401
+2023-01-15 19:04:50.512 +01:00 [INF] Start processing HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-15 19:04:50.518 +01:00 [INF] Sending HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-15 19:04:50.567 +01:00 [INF] Login Attempt for admin@bookstrore.com
+2023-01-15 19:04:50.603 +01:00 [INF] Received HTTP response headers after 80.4494ms - 401
+2023-01-15 19:04:50.609 +01:00 [INF] End processing HTTP request after 97.179ms - 401
+2023-01-15 19:05:01.116 +01:00 [INF] Start processing HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-15 19:05:01.120 +01:00 [INF] Sending HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-15 19:05:01.128 +01:00 [INF] Login Attempt for admin@bookstrore.com
+2023-01-15 19:05:01.141 +01:00 [INF] Received HTTP response headers after 16.8548ms - 401
+2023-01-15 19:05:01.143 +01:00 [INF] End processing HTTP request after 27.76ms - 401
+2023-01-15 19:05:12.509 +01:00 [INF] Start processing HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-15 19:05:12.518 +01:00 [INF] Sending HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-15 19:05:12.536 +01:00 [INF] Login Attempt for admin@bookstrore.com
+2023-01-15 19:05:12.560 +01:00 [INF] Received HTTP response headers after 34.2546ms - 401
+2023-01-15 19:05:12.567 +01:00 [INF] End processing HTTP request after 57.709ms - 401
+2023-01-15 19:05:12.727 +01:00 [INF] Start processing HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-15 19:05:12.773 +01:00 [INF] Sending HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-15 19:05:12.786 +01:00 [INF] Login Attempt for admin@bookstrore.com
+2023-01-15 19:05:12.802 +01:00 [INF] Received HTTP response headers after 22.9585ms - 401
+2023-01-15 19:05:12.810 +01:00 [INF] End processing HTTP request after 83.3368ms - 401
+2023-01-15 19:05:28.529 +01:00 [INF] Start processing HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-15 19:05:28.536 +01:00 [INF] Sending HTTP request POST "https://localhost:7082/api/Auth/login"
+2023-01-15 19:05:28.546 +01:00 [INF] Login Attempt for admin@bookstore.com
+2023-01-15 19:05:29.083 +01:00 [INF] Received HTTP response headers after 541.0031ms - 200
+2023-01-15 19:05:29.088 +01:00 [INF] End processing HTTP request after 558.5721ms - 200
+2023-01-15 19:05:31.979 +01:00 [INF] Start processing HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-15 19:05:31.990 +01:00 [INF] Sending HTTP request GET "https://localhost:7082/api/Authors"
+2023-01-15 19:05:32.119 +01:00 [INF] Request to GetAuthors
+2023-01-15 19:05:32.242 +01:00 [INF] Received HTTP response headers after 243.8668ms - 200
+2023-01-15 19:05:32.247 +01:00 [INF] End processing HTTP request after 267.8422ms - 200
